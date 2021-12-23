@@ -1,1 +1,1 @@
-storage_todolist = {'hi': False, 'hello': False}
+storage_todolist = {}
