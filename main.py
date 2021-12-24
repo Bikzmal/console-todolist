@@ -34,7 +34,7 @@ while True:
             x = 0
             for i, j in todolist.items():
                 print(str(x) + ":", i, end=" ")
-                print('❎' if not j else '✅')
+                print('| Not done' if not j else '| Done')
                 x += 1
     
     elif inp[0] == "done":
